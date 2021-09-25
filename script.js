@@ -50,6 +50,6 @@ submit.addEventListener("click", (e) => {
       );
       container.innerHTML = images + spinner;
       window.scrollTo(0, document.body.scrollHeight);
-    }, 2000);
+    }, 3000);
   }
 });
