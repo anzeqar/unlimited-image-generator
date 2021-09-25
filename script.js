@@ -14,7 +14,6 @@ class='card-img-top'
 
 submit.addEventListener("click", (e) => {
   e.preventDefault();
-  console.log(search.value);
   images = "";
   container.innerHTML = "";
   if (search.value == "") {
@@ -31,7 +30,6 @@ submit.addEventListener("click", (e) => {
     setInterval(() => {
       fetch(`https://source.unsplash.com/1600x900/?${search.value}`).then(
         (res) => {
-          console.log(res.url);
           images += `<div class="col">
                     <div class="card h-100 border-0">
                     <a href="${res.url}
