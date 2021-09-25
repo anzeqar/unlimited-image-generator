@@ -33,7 +33,8 @@ submit.addEventListener("click", (e) => {
           images += `<div class="col">
                     <div class="card h-100 border-0">
                     <a href="${res.url}
-                      " class="link" target='_blank' download><img
+                      " class="link" target='_blank' download>
+                      <img
                       src="${res.url}
                   
                     "
